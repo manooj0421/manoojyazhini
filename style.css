@@ -837,15 +837,16 @@ body.seasons-theme {
     align-items: center !important;
     justify-content: center !important;
     gap: 0.5rem;
-    padding: 1rem 2.5rem;
-    background: linear-gradient(135deg, var(--red), var(--gold-deep)) !important;
+    padding: 0.85rem 2.2rem;
+    background: linear-gradient(135deg, #f7dedf, #ebd0d2) !important;
     color: #ffffff !important;
+    text-shadow: 0 1px 2px rgba(180, 80, 90, 0.3);
     text-decoration: none !important;
     border-radius: 50px !important;
     font-weight: 700 !important;
-    font-size: 1.1rem !important;
-    margin-top: 1rem;
-    box-shadow: 0 8px 20px rgba(194, 30, 86, 0.4) !important;
+    font-size: 1.05rem !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    box-shadow: 0 8px 20px rgba(219, 112, 147, 0.35) !important;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 
@@ -855,8 +856,9 @@ body.seasons-theme {
 .btn-next:active,
 .btn-back:hover,
 .btn-back:active {
-    transform: translateY(-3px) scale(1.06) !important;
-    box-shadow: 0 12px 25px rgba(194, 30, 86, 0.6) !important;
+    transform: translateY(-2px) scale(1.04) !important;
+    background: linear-gradient(135deg, #fbe6e7, #ebd0d2) !important;
+    box-shadow: 0 12px 24px rgba(219, 112, 147, 0.5) !important;
     color: #ffffff !important;
 }
 
