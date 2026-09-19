@@ -1,10 +1,11 @@
+/* ==========================================================================
+   ROMANTIC BIRTHDAY WEBSITE STYLES v2.1 - DARK PINK MONTH CARDS
+   ========================================================================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-:root {
     --bg-cream: #fff0f5;
     --paper: #ffe4e1;
     --ink: #4a1525;
