@@ -1029,9 +1029,15 @@ body.seasons-theme {
 }
 
 .cupid-intro-overlay.unlocked {
-    opacity: 0;
-    pointer-events: none;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    visibility: hidden !important;
+    display: none !important;
     transform: scale(1.05);
+}
+
+.cupid-intro-overlay.unlocked * {
+    pointer-events: none !important;
 }
 
 .cupid-star-canvas {
@@ -1572,7 +1578,7 @@ body.seasons-theme {
         overflow-x: hidden !important;
     }
 
-    .cupid-intro-overlay {
+    .cupid-intro-overlay:not(.unlocked) {
         position: fixed !important;
         top: 0 !important;
         left: 0 !important;
@@ -1585,6 +1591,12 @@ body.seasons-theme {
         align-items: center !important;
         justify-content: center !important;
         z-index: 999999 !important;
+    }
+
+    .cupid-intro-overlay.unlocked {
+        display: none !important;
+        pointer-events: none !important;
+        visibility: hidden !important;
     }
 
     .btn-skip-intro {

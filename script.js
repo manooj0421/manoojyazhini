@@ -304,6 +304,7 @@ function initCupidIntro() {
 
     if (sessionStorage.getItem('cupid_unlocked') === 'true') {
         cupidIntroOverlay.classList.add('unlocked');
+        cupidIntroOverlay.style.display = 'none';
         return;
     }
 
@@ -459,6 +460,7 @@ function runCupidAnimation() {
     clearTimeout(cupidAnimTimeout3);
     clearTimeout(cupidAnimTimeout4);
 
+    overlay.style.display = 'flex';
     overlay.classList.remove('unlocked');
     stage.classList.remove('fade-out', 'is-shooting');
     passStage.classList.remove('active');
@@ -559,6 +561,9 @@ function handlePasswordSubmit(event) {
         
         if (overlay) {
             overlay.classList.add('unlocked');
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 600);
         }
 
         playHeartUnlockSound();
@@ -594,6 +599,7 @@ function playCupidIntro() {
     sessionStorage.removeItem('cupid_unlocked');
     const overlay = document.getElementById('cupidIntroOverlay');
     if (overlay) {
+        overlay.style.display = 'flex';
         overlay.classList.remove('unlocked');
     }
     runCupidAnimation();
