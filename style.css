@@ -540,11 +540,12 @@ body.seasons-theme {
     text-decoration: none;
     font-size: 1.05rem;
     font-weight: 600;
-    color: #fff !important;
-    background: linear-gradient(135deg, #f7dedf, #ebd0d2) !important;
-    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #c21e56, #880e4f) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
     border-radius: 50px;
-    box-shadow: 0 8px 20px rgba(219, 112, 147, 0.35) !important;
+    box-shadow: 0 8px 20px rgba(136, 14, 79, 0.4) !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     transition: all 0.25s ease;
     margin: 0;
 }
@@ -553,8 +554,8 @@ body.seasons-theme {
 .nav-buttons .btn-back:hover,
 .nav-buttons .btn-next:hover {
     transform: translateY(-3px);
-    background: linear-gradient(135deg, #fbe6e7, #ebd0d2) !important;
-    box-shadow: 0 12px 25px rgba(219, 112, 147, 0.5) !important;
+    background: linear-gradient(135deg, #d81b60, #ad1457) !important;
+    box-shadow: 0 12px 25px rgba(136, 14, 79, 0.6) !important;
 }
 
 @media (max-width: 650px) {
@@ -770,22 +771,22 @@ body.seasons-theme {
 .btn-no {
     padding: 0.85rem 2.2rem;
     font-size: 1.05rem;
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 50px;
     cursor: pointer;
     font-weight: 700;
-    background: linear-gradient(135deg, #f7dedf, #ebd0d2) !important;
+    background: linear-gradient(135deg, #c21e56, #880e4f) !important;
     color: #ffffff !important;
-    text-shadow: 0 1px 2px rgba(180, 80, 90, 0.35);
-    box-shadow: 0 8px 20px rgba(219, 112, 147, 0.35);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(136, 14, 79, 0.4);
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .btn-yes:hover,
 .btn-no:hover {
     transform: translateY(-2px) scale(1.04);
-    background: linear-gradient(135deg, #fbe6e7, #ebd0d2) !important;
-    box-shadow: 0 12px 24px rgba(219, 112, 147, 0.5);
+    background: linear-gradient(135deg, #d81b60, #ad1457) !important;
+    box-shadow: 0 12px 24px rgba(136, 14, 79, 0.6);
     color: #ffffff !important;
 }
 
@@ -832,15 +833,15 @@ body.seasons-theme {
     justify-content: center !important;
     gap: 0.5rem;
     padding: 0.85rem 2.2rem;
-    background: linear-gradient(135deg, #f7dedf, #ebd0d2) !important;
+    background: linear-gradient(135deg, #c21e56, #880e4f) !important;
     color: #ffffff !important;
-    text-shadow: 0 1px 2px rgba(180, 80, 90, 0.3);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     text-decoration: none !important;
     border-radius: 50px !important;
     font-weight: 700 !important;
     font-size: 1.05rem !important;
-    border: 1px solid rgba(255, 255, 255, 0.6) !important;
-    box-shadow: 0 8px 20px rgba(219, 112, 147, 0.35) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 8px 20px rgba(136, 14, 79, 0.4) !important;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 
@@ -851,8 +852,8 @@ body.seasons-theme {
 .btn-back:hover,
 .btn-back:active {
     transform: translateY(-2px) scale(1.04) !important;
-    background: linear-gradient(135deg, #fbe6e7, #ebd0d2) !important;
-    box-shadow: 0 12px 24px rgba(219, 112, 147, 0.5) !important;
+    background: linear-gradient(135deg, #d81b60, #ad1457) !important;
+    box-shadow: 0 12px 24px rgba(136, 14, 79, 0.6) !important;
     color: #ffffff !important;
 }
 
@@ -936,26 +937,26 @@ body.seasons-theme {
 
 .timeline-content {
     flex: 1;
-    background: linear-gradient(135deg, rgba(255, 192, 203, 0.88), rgba(244, 143, 177, 0.8));
-    border: 2px solid rgba(213, 52, 71, 0.5);
-    border-left: 6px solid var(--red-deep);
+    background: linear-gradient(135deg, #c21e56, #880e4f);
+    border: 2px solid rgba(255, 182, 193, 0.4);
+    border-left: 6px solid #ffd700;
     padding: 2rem;
     border-radius: 18px;
-    box-shadow: 0 10px 25px rgba(194, 30, 86, 0.22);
+    box-shadow: 0 10px 25px rgba(136, 14, 79, 0.4);
     backdrop-filter: blur(8px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .timeline-content:hover {
     transform: translateY(-3px);
-    box-shadow: 0 14px 30px rgba(194, 30, 86, 0.35);
+    box-shadow: 0 14px 30px rgba(136, 14, 79, 0.55);
 }
 
 .month-title {
     font-family: 'Bangers', cursive;
     font-size: 1.9rem;
-    color: var(--red-deep);
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+    color: #ffe0b2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 0.5rem;
 }
 
@@ -963,7 +964,8 @@ body.seasons-theme {
     font-size: 1.05rem;
     font-weight: 600;
     line-height: 1.75;
-    color: #3b0918;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {
@@ -1089,10 +1091,10 @@ body.seasons-theme {
     top: 20px;
     right: 22px;
     z-index: 20;
-    background: linear-gradient(135deg, #f7dedf, #ebd0d2) !important;
-    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    background: linear-gradient(135deg, #c21e56, #880e4f) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
     color: #ffffff !important;
-    text-shadow: 0 1px 2px rgba(180, 80, 90, 0.3);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     padding: 0.45rem 1.1rem;
     border-radius: 50px;
     font-size: 0.88rem;
@@ -1100,15 +1102,15 @@ body.seasons-theme {
     font-family: 'Outfit', sans-serif;
     cursor: pointer;
     backdrop-filter: blur(10px);
-    box-shadow: 0 8px 20px rgba(219, 112, 147, 0.35) !important;
+    box-shadow: 0 8px 20px rgba(136, 14, 79, 0.4) !important;
     transition: all 0.25s ease;
 }
 
 .btn-skip-intro:hover {
-    background: linear-gradient(135deg, #fbe6e7, #ebd0d2) !important;
+    background: linear-gradient(135deg, #d81b60, #ad1457) !important;
     border-color: rgba(255, 255, 255, 0.8) !important;
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(219, 112, 147, 0.5) !important;
+    box-shadow: 0 12px 24px rgba(136, 14, 79, 0.6) !important;
     color: #ffffff !important;
 }
 
@@ -1509,19 +1511,19 @@ body.seasons-theme {
     font-weight: 700;
     font-family: 'Outfit', sans-serif;
     color: #ffffff !important;
-    background: linear-gradient(135deg, #f7dedf, #ebd0d2) !important;
-    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    background: linear-gradient(135deg, #c21e56, #880e4f) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
     border-radius: 50px;
     cursor: pointer;
-    text-shadow: 0 1px 2px rgba(180, 80, 90, 0.3);
-    box-shadow: 0 8px 20px rgba(219, 112, 147, 0.35) !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(136, 14, 79, 0.4) !important;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .btn-unlock:hover {
     transform: translateY(-2px);
-    background: linear-gradient(135deg, #fbe6e7, #ebd0d2) !important;
-    box-shadow: 0 12px 25px rgba(219, 112, 147, 0.5) !important;
+    background: linear-gradient(135deg, #d81b60, #ad1457) !important;
+    box-shadow: 0 12px 25px rgba(136, 14, 79, 0.6) !important;
     color: #ffffff !important;
 }
 
@@ -1540,25 +1542,25 @@ body.seasons-theme {
     position: absolute;
     top: 18px;
     right: 22px;
-    background: linear-gradient(135deg, #f7dedf, #ebd0d2) !important;
-    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    background: linear-gradient(135deg, #c21e56, #880e4f) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
     color: #ffffff !important;
-    text-shadow: 0 1px 2px rgba(180, 80, 90, 0.3);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     padding: 0.45rem 1rem;
     border-radius: 50px;
     font-size: 0.88rem;
     font-weight: 700;
     cursor: pointer;
     z-index: 10;
-    box-shadow: 0 8px 20px rgba(219, 112, 147, 0.35) !important;
+    box-shadow: 0 8px 20px rgba(136, 14, 79, 0.4) !important;
     transition: all 0.25s ease;
 }
 
 .btn-replay-cupid:hover {
     transform: translateY(-2px) scale(1.05);
-    background: linear-gradient(135deg, #fbe6e7, #ebd0d2) !important;
+    background: linear-gradient(135deg, #d81b60, #ad1457) !important;
     color: #ffffff !important;
-    box-shadow: 0 12px 24px rgba(219, 112, 147, 0.5) !important;
+    box-shadow: 0 12px 25px rgba(136, 14, 79, 0.6) !important;
 }
 
 @media (max-width: 650px) {
